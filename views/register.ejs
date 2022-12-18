@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/login.css" />
+    <!-- link css  -->
+    <script src="https://kit.fontawesome.com/56b874a2f5.js" crossorigin="anonymous"></script>
+
+    <!-- social media icon  -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+    <!-- google fonts  -->
+    <script src="js/login.js"></script>
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div id="a-log-page">
+        <div class="Full-Page">
+            <nav>
+                <div class="logo">
+                    <img src="/img/logo1.png" />
+                </div>
+
+                <div class="btn">
+                    <button><a href="/" class="link">Login</a></button>
+                    <button><a href="/register" class="link">Signup</a></button>
+                </div>
+            </nav>
+            <section>
+                <div class="sign-img">
+                    <div class="imgBx">
+                        <img src="/img/undraw_shopping_re_3wst.svg" />
+                    </div>
+                </div>
+
+                <div class="contentBx">
+                    <div class="formBx">
+                        <form action="/register" method="POST">
+                            <div class="sign-head">
+                                <h2>Sign-Up</h2>
+                            </div>
+                            <div class="inputBx">
+                                <span><b>Email</b></span>
+                                <input type="text" name="email" />
+                            </div>
+
+                            <div class="inputBx">
+                                <span><b>Password</b></span>
+                                <input type="password" id="myPassword" name="password"
+                                    placeholder="At least 8 character!" />
+                            </div>
+
+                            <div class="inputBx">
+                                <span><b>Confirm Password</b></span>
+                                <input type="password" id="myPassword" name="passwordConfirm" />
+                            </div>
+
+                            <div class="inputBx">
+                                <div class="Your-Account">
+                                    <button type="submit">Continue</button>
+                                </div>
+                            </div>
+
+                            <div id="legal-note">
+                                <div class="term-follow">
+                                    <p>
+                                        By creating an account or logging in,<br />
+                                        you agree to IUcompare's <br />
+                                        <a href="">Conditions of Use</a> and
+                                        <a href="">Privacy Policy</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="inputBx">
+                                <p>
+                                    Already have an account?
+                                    <a href="/">Log-In</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- formBx -->
+                </div>
+                <!-- contentBx  -->
+            </section>
+        </div>
+        <!-- Full-Page  -->
+    </div>
+    <!-- a-log-page  -->
+</body>
+
+</html>

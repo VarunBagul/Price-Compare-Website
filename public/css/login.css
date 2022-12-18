@@ -1,0 +1,480 @@
+/* for all, Start 😍😎 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* for all, End 😏😏 */
+
+/* for all in body, Start 😍😎 */
+body {
+  font-family: "Nunito", sans-serif;
+}
+/* for all in body, End 😏😏 */
+
+/* for background image - start 😁😀 */
+/* .bgImg {
+  position: fixed;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+} */
+/* for background image - end 😁😀 */
+
+#a-log-page {
+  /* border: 1px solid black; */
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+/* navbar with logo and login signup button  */
+nav {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 125px;
+  /* background-color: #a9d4d9; */
+}
+
+.Full-Page nav .logo img {
+  display: flex;
+  width: 140px;
+  height: 55px;
+  cursor: pointer;
+  align-items: center;
+  /* margin-left: 50px; */
+}
+
+/* button in navbar  */
+.Full-Page nav .btn {
+  /* margin-right: 50px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  align-items: center;
+}
+
+nav .btn button {
+  display: block;
+  padding: 5px 6px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+nav .btn button:hover,
+nav .btn button:active {
+  box-shadow: 0 0 5px #f44336;
+  border: 2px solid #c7c7c7;
+}
+/* end of navbar */
+
+/* basic layout dividing screen in two parts - start 😪😪 */
+section {
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 3rem; */
+  padding: 0 1rem;
+}
+/* basic layout dividing screen in two parts - end 😪😪 */
+
+h2 {
+  color: #607db8;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-bottom: 2px solid #e7e7e7;
+  letter-spacing: 1px;
+}
+
+.sign-img .imgBx img {
+  width: 410px;
+  height: 464px;
+  background-color: #a9d4d9;
+}
+
+.imgBx img {
+  width: 410px;
+  height: 510px;
+  background-color: #a9d4d9;
+}
+
+/* image center 😃😃 */
+.imgBx {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+/* form css start 🤗🤗 */
+section .contentBx {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: 1px solid red; */
+}
+
+section .contentBx .formBx {
+  /* border: 1px solid green; */
+  padding: 20px;
+  background-color: #fffae9;
+  /* box-shadow: 0 0 8px rgb(255, 147, 147); */
+  transition: 0.5s ease;
+  /* border-radius: 5px; */
+}
+
+section .contentBx .formBx .inputBx {
+  margin-bottom: 15px;
+}
+
+section .contentBx .formBx .inputBx input:hover,
+section .contentBx .formBx .inputBx input:active {
+  box-shadow: 0 0 5px #f44336;
+  transition: all 0.1 ease;
+}
+
+section .contentBx .formBx .inputBx span {
+  /* email & password  */
+
+  margin-bottom: 2px;
+  display: inline-block;
+  color: #607db8;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+section .contentBx .formBx .inputBx input {
+  width: 100%;
+  padding: 5px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #e7e7e7;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #607d8b;
+  background: transparent;
+  border-radius: 5px;
+}
+
+section .contentBx .formBx .inputBx input[type="submit"] {
+  background-image: linear-gradient(to right, #e91e63, #f44336, #e91e63);
+  color: black;
+  outline: none;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  background-size: 200%;
+  transition: 0.5s;
+}
+
+section .contentBx .formBx .inputBx input[type="submit"]:hover {
+  background-position: right;
+}
+
+section .contentBx .formBx .place {
+  display: flex;
+  justify-content: space-between;
+}
+
+section .contentBx .formBx .place .remember {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13px;
+  margin-top: -8px;
+  color: #607d8b;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.eye-look .eye {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 13px;
+  margin-top: -8px;
+  cursor: pointer;
+}
+
+section .contentBx .formBx .inputBx p {
+  color: #607d8b;
+  font-size: 14px;
+}
+
+section .contentBx .formBx .inputBx p a {
+  color: #e91e63;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+section .term-follow p {
+  color: #607d8b;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+section .term-follow p a {
+  color: #e91e63;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+section .New-Account {
+  display: block;
+  position: relative;
+  height: 29px;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+  border-radius: 2px;
+}
+
+section .New-Account button {
+  display: block;
+  padding: 5px 6px;
+  background-image: linear-gradient(to right, #d6d6d6, #929292, #d6d6d6);
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 400;
+  background-size: 200%;
+  transition: 0.5s;
+}
+
+section .New-Account button:hover {
+  background-position: right;
+}
+
+section .New-Account button:hover,
+section .New-Account button:active {
+  box-shadow: 0 0 5px #f44336;
+  transition: all 0.1 ease;
+}
+
+section .Your-Account {
+  display: block;
+  position: relative;
+  height: 29px;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+  border-radius: 2px;
+}
+
+section .Your-Account button {
+  display: block;
+  padding: 5px 6px;
+  background-image: linear-gradient(to right, #e91e63, #f44336, #e91e63);
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 400;
+  background-size: 200%;
+  transition: 0.5s;
+}
+
+section .Your-Account button:hover {
+  background-position: right;
+}
+
+section .Your-Account button:hover,
+section .Your-Account button:active {
+  box-shadow: 0 0 5px #f44336;
+  transition: all 0.1 ease;
+}
+
+/* section .contentBx .formBx .inputBx p a {
+  color: #ff4584;
+  font-weight: 400px;
+  font-size: 17px;
+} */
+
+section .contentBx .formBx h3 {
+  color: #607db8;
+  text-align: center;
+  margin: 10px 0 20px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+#hide1 {
+  display: none;
+}
+/* finish  */
+
+/* hr with or 😎😋 */
+section .contentBx .formBx .or h3 {
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+section .contentBx .formBx .or h3:before {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: block;
+  background-color: transparent;
+  border-top: 2px solid #e7e7e7;
+  /* background: black; */
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+section .contentBx .formBx .or h3:after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: block;
+  background-color: transparent;
+  border-top: 2px solid #e7e7e7;
+  /* background: black; */
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+/* Finish  */
+
+/* start of social media button😉😉 */
+.wrapper {
+  display: flex;
+  margin-left: 15px;
+  place-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .button {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+  width: 125px;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 45px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+  background: #1a7512;
+}
+.wrapper .button:nth-child(2):hover .icon {
+  background: #4267b2;
+}
+.wrapper .button:nth-child(3):hover .icon {
+  background: #e1306c;
+}
+.wrapper .button:nth-child(4):hover .icon {
+  background: rgb(71, 71, 71);
+}
+
+.wrapper .button .icon i {
+  font-size: 20px;
+  line-height: 45px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+  color: #fff;
+}
+
+.wrapper .button span {
+  font-size: 15px;
+  font-weight: 185;
+  line-height: 30px;
+  margin-left: 2px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+  color: #1a7512;
+}
+.wrapper .button:nth-child(2) span {
+  color: #4267b2;
+}
+.wrapper .button:nth-child(3) span {
+  color: #e1306c;
+}
+.wrapper .button:nth-child(4) span {
+  color: rgb(71, 71, 71);
+}
+/* End of social media button 😋😊 */
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+/* start of media query    😄😄*/
+@media (max-width: 768px) {
+  section .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  section .contentBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  section .contentBx .formBx {
+    width: 100%;
+    padding: 40px;
+    background: rgb(255 255 255 / 0.9);
+    margin: 50px;
+  }
+
+  section .contentBx .formBx h3 {
+    color: #607d8b;
+    text-align: center;
+    margin: 30px 0 10px;
+    font-weight: 500;
+  }
+}
+/* End of media query   😂😁*/
